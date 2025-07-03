@@ -1,0 +1,61 @@
+/*fundo suave */
+body {
+  background-color: #d9e6f3;
+  font-family: Arial, sans-serif;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+/* Título centralizado com cor diferente */
+h1 {
+  text-align: center;
+  color: #2a5d9f;
+}
+/* Parágrafo com fonte maior e justificado */
+p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+/*  Mais espaçamento entre os itens da lista */
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+ul li {
+  margin-bottom: 0.8rem;
+}
+
+/* Imagem com bordas arredondadas e tamanho adequado */
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Estilização da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+th, td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #dde9f3;
+}
+
+/* 7. Link que muda de cor ao passar o mouse */
+a {
+  color: #1155cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #ff6600;
+}
